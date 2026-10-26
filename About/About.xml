@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Taktikmagier - Vanilla Psycasts Expanded Patch</name>
+	<author>DanZinagri</author>
+	<packageId>DanZinagri.Taktikmagier.VPEPatch</packageId>
+	<supportedVersions>
+		<li>1.7</li>
+	</supportedVersions>
+	<description>Stops free vanilla psycasts on psylink gain.</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>VanillaExpanded.VPsycastsE</packageId>
+			<displayName>Vanilla Psycasts Expanded</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2842502659</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Aoba.DeadManSwitch.Taktikmagier</packageId>
+			<displayName>The Dead Man's Switch - Taktikmagier</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3826500999</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>VanillaExpanded.VPsycastsE</li>
+		<li>Aoba.DeadManSwitch.Taktikmagier</li>
+	</loadAfter>
+</ModMetaData>
